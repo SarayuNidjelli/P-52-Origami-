@@ -1,0 +1,82 @@
+
+.bodyimg{
+    position: absolute; top:10%; left:50%; transform: translate(-50%, -50%); width: 100%; margin: 0 auto;
+    
+}
+
+.menu{
+    display:flex;
+    justify-content: space-between;
+    background-color: powderblue;
+    font-style: italic;
+    margin-right: 30px;
+    padding-right: 30px;
+}
+
+body{
+background-color: rosybrown;
+}
+
+a{
+    margin-right: 30px;
+
+}
+
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: initial;
+}
+
+.text2:hover{
+    transform: scale(1.2);
+}
+
+.text2{
+    display: flex;
+    justify-content: space-evenly;
+    color: palevioletred;
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    text-align: center;
+    font-size: larger;
+    font-family: cursive;
+}
+
+
+.text1{
+    display: flex;
+    justify-content: space-evenly;
+    color: palevioletred;
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    font-size: large;
+    font-family: cursive;
+}
+
+
+.grid img{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.origami{
+   
+    border-radius: 20px;
+    background-color: white;
+
+    width: 310px;
+   font-family: fantasy;
+}
+
+a:link{
+    color: purple;
+}
+
+a:visited{
+    color:plum;
+}
